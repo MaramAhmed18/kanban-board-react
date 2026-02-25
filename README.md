@@ -1,16 +1,47 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Kanban Board Project
 
-Currently, two official plugins are available:
+A highly interactive Task Management Dashboard built with React, Vite, Redux Toolkit, and React Query. This project was developed as part of a Frontend Developer Assessment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Frontend: React (Vite).
 
-## Expanding the ESLint configuration
+- State Management: Redux Toolkit (Search state).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Data Fetching: React Query (Server state & Caching).
+
+- Styling: Material UI & Emotion.
+
+- Mock Backend: JSON Server.
+
+_______________________________________
+
+## Start the Development Server (Frontend)
+In your main terminal, run:
+
+npm run dev
+_______
+## Start the Mock Server (Backend)
+The application requires a mock API to function. In a separate terminal, run:
+
+npm run server
+
+___________________________________
+
+## Assessment Requirements Covered
+
+ - Build ToDo dashboard with 4 columns.
+
+ - Use React, Redux, and React Query.
+
+ - Implement Drag-and-Drop.
+
+ - Create, Update, and Delete tasks.
+
+ - Search bar for filtering.
+
+- Pagination/Infinite scroll.
+
+- Material UI layout.
