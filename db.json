@@ -1,0 +1,46 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "API integration",
+      "description": "Connect frontend to REST API endpoints",
+      "column": "backlog",
+      "priority": "HIGH"
+    },
+    {
+      "id": "2",
+      "title": "Unit tests",
+      "description": "Write tests for utility functions and hooks",
+      "column": "backlog",
+      "priority": "LOW"
+    },
+    {
+      "id": "4",
+      "title": "Dark mode support",
+      "description": "Add theme toggle and CSS variable switching",
+      "column": "backlog",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "5",
+      "title": "Design system tokens",
+      "description": "Set up color palette and typography",
+      "column": "done",
+      "priority": "HIGH"
+    },
+    {
+      "id": "c6a2",
+      "title": "maram",
+      "description": "mmm",
+      "column": "review",
+      "priority": "LOW"
+    },
+    {
+      "id": "d9ec",
+      "title": "mm",
+      "description": "jssss",
+      "column": "in_progress",
+      "priority": "MEDIUM"
+    }
+  ]
+}
